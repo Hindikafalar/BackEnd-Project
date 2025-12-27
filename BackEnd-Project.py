@@ -7,11 +7,11 @@ app = Flask(__name__)
 def hello_world():
     rastgele_bilgi = ["Sivrisineklerin 47 tane dişi vardır.", "Bukalemunların dilleri,vücutlarından iki kat uzundur.", "Ördeğin sesi yankı yapmaz.", "Bir kağıdı yalnızca 40 defa ikiye katlarsanız uzunluğu aya kadar gidebilir.", "Hiçbir kağıt 7 defadan fazla 2'ye katlanamaz.", "Bal bozulmayan tek gıdadır.", "Dünyada insanlardan daha çok tavuk var.", "Otomobil sayısı insan sayısından 3 kat daha hızlı artıyor.", "El tırnakları ayak tırnaklarından 4 kat daha hızlı uzar.", "Sabahları elma kahveden daha fazla uykunuzu açar.", "Yerçekimsiz ortamda mum alevi küre şeklinde olur.", "Error", "Minecraft'ın yeni sürümü 1.20 artık yayında!", "hmm.. bilgi?", "Çok düşünen file ne denir? Filozof!", "2019'da yapılan bir araştırmaya göre, insanların %60'ından fazlası akıllı telefonlarındaki iş mesajlarına işten ayrıldıktan sonraki 15 dakika içinde yanıt veriyor.", "Rocket League Sezon 12 Eylül'ün 9'unda geliyor.", "Elon Musk, sosyal ağların içeriği görüntülemek için mümkün olduğunca fazla zaman harcamamız için bizi platformun içinde tutmak üzere tasarlandığını iddia ediyor.", "Sosyal ağların olumlu ve olumsuz yanları vardır ve bu platformları kullanırken her ikisinin de farkında olmalıyız."]
     secim = random.choice(rastgele_bilgi)
-    return f"<p>Rastgele bilgi: {secim}</p> <h1>Naber?</h1>"
+    return f"<p>Rastgele bilgi: {secim}</p>"
 
 @app.route("/hilmi")
 def hilmi():
-    return "<h1> |-Hilmi-| </h1>"
+    return "<h1> | Hilmi | </h1>"
 
 
 #Yazı Tura
